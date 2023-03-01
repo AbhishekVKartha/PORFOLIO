@@ -1,6 +1,6 @@
 import { ProfileWrapper } from "./ProfileCard.styled";
 import { useSelector } from "react-redux";
-import avatar from "../../assets/eldhose.JPEG";
+import avatar from "../../assets/abhishek.jpg";
 
 const ProfileCard = () => {
   const name = useSelector((state) => state.name);

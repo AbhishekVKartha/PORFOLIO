@@ -33,18 +33,6 @@ const SocialMedia = () => {
       <h1>Lets Connect</h1>
       <div className="d-flex justify-content-evenly align-items-center">
         <div className="social-wrapper">
-          <a href={github} target="_blank" rel="noopener noreferrer">
-            <SiGithub className="social-icon" />
-          </a>
-        </div>
-
-        <div className="social-wrapper">
-          <a href={linkedin} target="_blank" rel="noopener noreferrer">
-            <SiLinkedin className="social-icon" />
-          </a>
-        </div>
-
-        <div className="social-wrapper">
           <SiGmail className="social-icon" onClick={handleClick} />
           <Snackbar
             open={openCopy}

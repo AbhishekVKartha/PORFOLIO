@@ -3,108 +3,58 @@ import projectImages from "../constants/images";
 
 const initialState = {
   themeName: "",
-  name: "Eldhose M Peter",
-  designation: "Front End Developer",
+  name: "Abhishek Valavakkadu Vanajakshan Kartha",
+  designation: "Test Engineer",
   profileSummary: `I am a self directed and motivated software developer,
 working eﬀectively in dynamic environment, where I can
 apply my knowledge and skills for continuous improvement.`,
   linkedin: "https://www.linkedin.com/in/eldhose-m-peter-48867411a/",
   github: "https://github.com/eldhosempeter07",
-  emailId: "eldhosempeter07@gmail.com",
+  emailId: "abhishekvkartha98@gmail.com",
   educationDetails: [
     {
-      educationName: "Master of Computer Applications",
-      collegeName: "College of Engineering Trivandrum",
-      year: "2017-2020",
-      location: "Trivandrum, Kerala",
-      details: `Graduated with a 7.42 GPA from APJ Abdul Kalam Technological University, Kerala`,
-    },
-    {
-      educationName: "Bachelor of Computer Applications",
-      collegeName: "Baselious Poulose II Catholicos College",
-      year: "2014-2017",
-      location: "Piravom, Kerala",
-      details: `Graduated with a 7.32 GPA from Mahatma Gandhi University, Kottayam`,
+      educationName: "Diploma in Electronics and Communication",
+      collegeName: "Government Polytechnic College Perumbavoor",
+      year: "2016-2019",
+      location: "Ernakulam, Kerala",
+      details: `Graduated with a 8.5 GPA from state board of technical education, Kerala`,
     },
     {
       educationName: "Higher Secondary Education",
-      collegeName: "ST Ignatius Higher Secondary School",
-      year: "2012-2014",
-      location: "Kanjiramattom, Kerala",
-      details: `Passed with a 82.4% from Board of Higher Secondary Education, Kerala`,
+      collegeName: " Stmary's Higher Secondary School Morakkala",
+      year: "2014-2016",
+      location: "Ernakulam, Kerala",
+      details: `Passed with a 75 % from Board of Higher Secondary Education, Kerala`,
     },
     {
       educationName: "High School Education",
-      collegeName: "Georgian Academy English School",
-      year: "2011-2012",
-      location: "Thiruvankulam, Kerala",
-      details: `Passed with a 94% from Board of Public Examination, Kerala`,
+      collegeName: " Stmary's Higher Secondary School Morakkala",
+      year: "2013-2014",
+      location: "Ernakulam, Kerala",
+      details: `Passed with a 96% from Board of Public Examination, Kerala`,
     },
   ],
   workExperience: [
     {
-      designation: "Software Engineer",
-      companyName: "Neoito Private Limited",
-      year: "06/2022-present",
+      designation: "Test Engineer",
+      companyName: " Sfo Technologies Digital Pvt. Ltd.",
+      year: "09/2022-present",
       location: "Kochi, India",
-      details: `• Worked on UI development for a dashboard for Business Administrators using React JS.
-      • Worked on a project that aims to generate a website for a business purpose based on user input.
-     • Created complex UI designs using class-based and functional components. 
-      \n• Technology Used : React JS, Node JS, Next JS, Redux, tailwind, axios`,
+      details: `• Expert in Test Automation & Functional Circuit Testing.
+        • Test system Design (Requirement based testing) and development.
+        • Exposure in test software development using Python and C.
+        • Spectrum analyzer, Power sensor, Signal generator etc `,
     },
     {
-      designation: "Javascript Developer",
-      companyName: "Appadore Private Limited",
-      year: "03/2021-05/2022",
-      location: "Kochi, India",
-      details: `
-        • Worked on a project publishes news articles about the updated apps about messej mobile chat application.
-        • Worked on a web application which provides pet caring, pet clinic booking and shopping services for pets
-        \n• Technology Used : React JS, Redux, SASS, Styled-Components,react-bootstrap, axios
-        `,
-    },
-    {
-      designation: "Junior Software Engineer",
-      companyName: "Clado Solutions",
-      year: "10/2019-09/2021",
+      designation: "Rolling stock technician",
+      companyName: " Asa Bhanu Technical Services Limited ",
+      year: "08/2019-01/2022",
       location: "Kochi, India",
       details: `
-        • Engaged in performance optimization on the JS/TS applications and pixel perfect conversion of design to code.
-        • Managed design, functional approach for UI delivery and worked on major severity issues. 
-        \n• Technology Used : React JS,  Redux-saga, SASS, Styled-Components,react-bootstrap, axios
+        • Worked for Kochi Metro Rail Limited under " Asa Bhanu Technical Services Limited and have a vast knowledge about systems and sub systems of Metro trains .
+        • DIT-MCO tester programming and validation, Boundary scan testing, Machine communication using RS232 interface etc.
+        • Hands on experience with RF equipments such as Network analyzers, 
         `,
-    },
-  ],
-  projects: [
-    {
-      projectName: "Paw Walker",
-      techStack: [
-        "react js",
-        "python",
-        "react-redux",
-        "styled-components",
-        "react-bootstrap",
-        "material-ui",
-        "axios",
-      ],
-      imageUrl: projectImages.paw,
-      visitLink: "https://www.pawwalker.in/",
-      description:
-        "Paw walker is a web application which provides pet caring, pet clinic booking and shopping services for pets..",
-    },
-    {
-      projectName: "Tech Club",
-      techStack: [
-        "next js",
-        "node js",
-        "react-redux",
-        "redux-saga",
-        "tailwind",
-      ],
-      imageUrl: projectImages.tech,
-      visitLink: "https://techclub.neoito.com/",
-      description:
-        "Tech club is a collective of passionate creators who just love to connect peers with the masters of their field",
     },
   ],
 };

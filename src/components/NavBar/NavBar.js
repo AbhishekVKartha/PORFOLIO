@@ -7,7 +7,7 @@ import { HiCloudDownload } from "react-icons/hi";
 import { THEMES } from "../../constants/theme";
 import { changeTheme } from "../../actions/themeActions";
 import { Link } from "react-scroll";
-import resume from "../../assets/resume/Eldhose-M-Peter Resume.pdf";
+import resume from "../../assets/resume/Abhishek.pdf";
 
 const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -128,7 +128,7 @@ const NavBar = () => {
               </Link>
               <a
                 href={resume}
-                download="Eldhose-M-Peter Resume.pdf"
+                download="Abhishek.pdf"
                 className="nav-link"
                 onClick={() => {
                   setIsNavOpen(!isNavOpen);
